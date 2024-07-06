@@ -40,3 +40,9 @@ It also found that selling technology products yield most of the profit followed
 The trends for customer segment, Product category sold, Province and region from where the order was made remained consistent over the years.
 
 For the statistical modeling and to gain insights about the profit/loses trends I used a decision tree. a. Positive values were marked 1(Profit), Negative values were marked as 0(Loss) b. 'Order Quantity','Shipping Cost','Product Category', 'Unit Price', 'Sales' featues were used to train the model since these have the most impact on the profit of the order. c. The categorical features were one hot encoded. d. The training data was split into training and validation set Following interesting insights were gained analyzing the decision tree: a) Orders with sales less than 350 mostly lead to loses except furniture or office supplies with cheap shipping cost and comparative higher sales amount. b) It became clear that orders with low sales amount, high shipping cost and low unit price mostly lead to losses. Assuming that shipping cost is incurred by the company it could be a business decision to sell cheap products even if the cost to transport is high so that more customers could try out the products which colud ultimately lead to increase in sales and ultimatley increase in profits. c) For orders above 350 sales, low shipping cost and order quanity more than 10 lead to profits. Also orders with very high sales and high per unit cost are mostly profitable.
+
+Created and Presented by- SURYA B @ Data Analyst LinkedIn ID ( www.linkedin.com/in/suryabs )
+
+Location: India
+
+THE END
